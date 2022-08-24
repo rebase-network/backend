@@ -2,9 +2,9 @@
   "name": "rebase-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "rebase-backend application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -18,14 +18,11 @@
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "f924d20e-13ff-4950-aea2-cd36aefc1973"
+    "name": "Rebase Team"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "BSD 3-Clause"
 }
